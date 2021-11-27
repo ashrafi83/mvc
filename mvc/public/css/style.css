@@ -1,0 +1,311 @@
+@font-face {
+    font-family: Samim;
+    src: url('public/font/Samim/Samim.ttf');
+}
+
+/* --- ROOT --- */
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-size: 14px;
+    word-spacing: -2px;
+    user-select: none;
+    color: #505050;
+}
+a{
+    text-decoration: none;
+}
+.text-bold{
+    font-weight: bold;
+}
+/* --- end --- */
+
+
+body{
+    background: #f5f5f5;
+    direction: rtl;
+    font-family: Samim;
+}
+
+/* --- Header --- */
+.header{
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    margin-bottom: 30px;
+    box-shadow: 0 0 5px rgba(51, 51, 51, 0.05);
+}
+.header .site-logo{
+    margin-top: 15px;
+}
+.header .menu{
+    padding: 30px;
+}
+.header .menu ul{
+    list-style-type: none;
+    display: flex;
+}
+.header .menu ul li{
+    padding: 0 10px;
+}
+.header .menu ul li a{
+    color: #000;
+}
+/* --- End --- */
+
+
+.section-product-single{
+    background: #fff;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    padding: 20px 0;
+    border: 1px solid #eee;
+}
+.section-product-single .img{
+    padding: 0 20px;
+}
+.section-product-single .img img{
+    width: 100%;
+    border-radius: 8px;
+}
+.section-product-single .title{
+    font-size: 18px;
+}
+.section-product-single .price{
+    color: #000;
+    font-weight: bold;
+    text-align: left;
+}
+.product-single-description{
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    margin-top: 20px;
+    padding: 20px 10px;
+}
+
+/* --- cart --- */
+.c-checkout_group{
+    padding: 0 10px;
+}
+.c-checkout_group .c-checkout_items{
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 8px 13px -7px rgb(0,0,0,0.08);
+    padding: 5px;
+}
+.c-checkout_group .c-checkout_items ul{
+    list-style-type: none;
+
+}
+.c-checkout_group .c-checkout_items ul li{
+    border-bottom: 1px solid #eee;
+    padding: 10px 5px;
+    display: flex;
+}
+.c-checkout_group .c-checkout_items ul li .c-product_img img{
+    width: 100px;
+    max-height: 100px;
+    margin-left: 10px;
+}
+.c-checkout_group .c-checkout_items ul li .c-product_title{
+
+}
+
+
+.c-checkout-aside{
+    padding: 0 10px;
+}
+.c-checkout-aside .c-checkout-bill{
+    background: #fff;
+}
+/* --- end --- */
+
+/* form */
+.massage-form{
+    display: none;
+}
+/* end */
+
+/* --- login --- */
+.login-form-box{
+    background: #fff;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+.login-form-box form input{
+    margin: 0 0 15px 0;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.login-form-box form button{
+    width: 80px;
+}
+/* --- end --- */
+
+/* --- register --- */
+.register-form-box{
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+.register-form-box form input{
+    margin: 0 0 15px 0;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.register-form-box form button{
+    width: 100%;
+}
+
+.forgot-password-form-box{
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+.forgot-password-form-box form input{
+    margin: 0 0 15px 0;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    text-align: right;
+}
+.forgot-password-form-box form button{
+    width: 100%;
+}
+/* --- end --- */
+
+
+
+/* --- profile --- */
+.p-menu-sidebar-p{
+    padding: 0 5px;
+}
+.p-menu-sidebar{
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #eee;
+}
+.p-menu-sidebar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.p-menu-sidebar ul li{
+    border-bottom: 1px solid #eee;
+    display: flex;
+}
+.p-menu-sidebar ul li a{
+    color: #333;
+    padding: 10px;
+    width: 100%;
+}
+.p-menu-sidebar ul li:hover{
+    background: #f5f5f5;
+}
+.p-main-p{
+    padding: 0 5px;
+}
+.p-main{
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    padding: 30px 10px;
+}
+
+#personal-info-form input{
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 250px;
+}
+#personal-info-form span{
+    font-size: 12px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+/* --- end --- */
+
+
+/* --- Shop --- */
+.shop-products{
+
+}
+.shop-products .product-item-p{
+    padding: 10px;
+}
+.shop-products .product-item-p .product-item{
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    display: flex;
+}
+.shop-products .product-item-p .product-item a{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 8px;
+}
+.shop-products .product-item-p .product-item a .product-img{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.shop-products .product-item-p .product-item a .product-img img{
+    width: 80%;
+}
+.shop-products .product-item-p .product-item a .product-title{
+
+}
+.shop-products .product-item-p .product-item a .product-price{
+    font-size: 13px;
+}
+/* ---- End --- */
+
+
+/* --- Categories --- */
+.categories{
+
+}
+.categories .categories-item-p{
+    padding: 5px;
+}
+.categories .categories-item-p .categories-item{
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    display: flex;
+}
+.categories .categories-item-p .categories-item a{
+    width: 100%;
+    height: 100%;
+    padding: 5px 5px 15px 5px;
+    text-align: center;
+    color: #525252;
+    font-weight: bold;
+    display: flow-root;
+}
+.categories .categories-item-p .categories-item a .category-img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.categories .categories-item-p .categories-item a .category-title{
+    font-size: 13px;
+    margin: 0;
+}
+/* --- end --- */
